@@ -1,16 +1,8 @@
-# Hi, I'm Summer Malik
+<div align="center">
 
-I'm a Computer Science and Biology double major at UNC Charlotte with an AI minor.
+# hi, i'm summer
 
-I am currently at the University of Illinois Urbana-Champaign doing quantum computing research, focused on Shor's algorithm, quantum Fourier transforms, and quantum algorithm implementation.
+<img src="rem.png" width="220" alt="Rem from Deadlock">
+<img src="futaba.gif" width="260" alt="Futaba from Persona 5">
 
-## Current work
-- Quantum computing research at UIUC
-- Quantum machine learning and medical imaging
-- AI research and student-led technical projects
-
-## Featured projects
-- NeuroCat — biological simulation of cerebellar hypoplasia in cats
-- ParanoiaNet — AI-powered psychological horror game
-- HAVK Data Visualization Competition — sprint I organized and led
-- Tundra — distributed recursive agents project
+</div>
