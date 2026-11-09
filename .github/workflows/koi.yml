@@ -1,0 +1,31 @@
+
+name: Koi
+
+on:
+  schedule:
+    - cron: "20 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  koi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: yalongwastaken/git-koi@v1
+        with:
+          body: asagi
+          output-dir: koi
+
+      - name: Save koi
+        run: |
+          git add koi/koi.gif
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Update koi"
+            git push
+          fi
