@@ -1,4 +1,4 @@
- <div align="center">
+<div align="center">
 
 <img src="deadlock-rem.gif" width="420" alt="Rem from Deadlock">
 
